@@ -1,17 +1,16 @@
 # Tentroll
 
-Trolling with tensorflow.
+Trolling with NodeJS, Python, Docker, Tensorflow.
 
-WARNING. If you missed how toxic the internet is now, you won't like what comes next.
+### What is trolling?
+
+#### making a deliberately offensive or provocative online post with the aim of upsetting someone or eliciting an angry response from them.
 
 ### Motivation 
 
-Tribalism/Populism has near complete control over social media at this point. 
-Networks of accounts can be grouped by the kinds of media they consume and produce.
-Brigading / attack campaigns have become extremely common. 
-Virtue / Group signaling is not always automated, but can be.
+Trolling and Memes are cultural internet phenomenon. 
 
-This code is for research, don't be deceptive.
+Tests and experiments are necessary to understand how automated activities can impact online communities. 
 
 ## Tensorflow
 
@@ -35,6 +34,14 @@ mkdir image_data
 Each folder in this directory will contain training samples for a class.
 
 In our case, `isis, gays, trump_fans`. You can build your own classes...
+
+## Install Node Dependencies
+
+```
+npm install 
+brew install ghostscript
+brew install graphicsmagick
+```
 
 ### Collecting Training Data
 
@@ -73,19 +80,9 @@ python /tf_files/classify.py /tf_files/test_data/0.jpg
 
 ```
 
-### Capturing from node...
-```
-# In tentroll directory
-npm run classify 
-```
-
 ## Attacking
 
-```
-npm install 
-brew install ghostscript
-brew install graphicsmagick
-```
+
 
 ### Maybe in the future...
 http://www.sno.phy.queensu.ca/~phil/exiftool/
