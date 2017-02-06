@@ -13,3 +13,5 @@ tf_files/retrained_labels.txt
 
 
 npm-debug.log
+
+.DS_Store
