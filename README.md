@@ -4,7 +4,7 @@ Trolling with NodeJS, Python, Docker, Tensorflow.
 
 ### What is trolling?
 
-#### making a deliberately offensive or provocative online post with the aim of upsetting someone or eliciting an angry response from them.
+Making a deliberately offensive or provocative online post with the aim of upsetting someone or eliciting an angry response from them.
 
 ### Motivation 
 
