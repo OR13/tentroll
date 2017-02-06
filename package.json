@@ -1,0 +1,20 @@
+{
+  "name": "tentroll",
+  "version": "1.0.0",
+  "description": "A trolling framework...",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./src -name '*.spec.js' | xargs mocha -R spec",
+    "upload": "node ./src/upload/imgur.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "gm": "^1.23.0",
+    "imgur": "^0.2.0",
+    "mocha": "^3.2.0",
+    "node-exiftool": "^2.1.1",
+    "request": "^2.79.0"
+  }
+}
